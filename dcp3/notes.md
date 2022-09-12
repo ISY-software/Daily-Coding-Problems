@@ -1,0 +1,1 @@
+[" 'rl'", " 'rr'", " 'rl", "l'", " 'rl.r'", " 'rr.l'", " 'rr.r'", " 'rl.l.l'", " 'rl.l.r'", " 'rl.r.l'", " 'rl.r.r'", " 'rr.l.l'", " 'rr.l.r'", " 'rr.r.l'", " 'rr.r.r'", ' None', ' None', ' None', ' None', ' None', ' None', ' None', ' None', ' None', ' None', ' None', ' None', ' None', ' None', ' None', ' None']
