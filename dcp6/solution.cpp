@@ -1,29 +1,21 @@
-// vim: foldlevel=99
+// vim: foldlevel=99 tabstop=2  shiftwidth=2
+#include <cstdint>
 #include <iostream>
 #include <stdint.h>
 
-
-template <class T>
-class Node {       
-  public:             
+template <class T> 
+class Node {
+  public:
     T val;
-
+    Node* both;
 };
 
-int main(int argc, char *argv[])
-{
-    int varA = 23;
-    int varB = 10;
-    int* dirA = &varA;
-    int* dirB = &varB;
-    uintptr_t xor_ptr = (uintptr_t)dirA ^ (uintptr_t)dirB;
+/**
+ * Xor beetween nodes
+ */
 
-    std::cout << varA << std::endl;
-    std::cout << varB << std::endl;
-    std::cout << dirA << std::endl;
-    std::cout << dirB << std::endl;
-    std::cout << (*dirA) << std::endl;
-    std::cout << (*dirB) << std::endl;
-    std::cout << xor_ptr << std::endl;
-    std::cout << ((void *)(xor_ptr ^ (uintptr_t)dirA)) << std::endl;
+
+
+int main(int argc, char *argv[]) {
+  return 0;
 }
