@@ -24,6 +24,11 @@ def climb(stepsList: list, stairCase: int) -> int:
         
     return ways
 
-#print(climbR([1,2], 4))
 
-print(climb([1,2], 5))
+
+# ---- 
+
+#print(climbR([1,2], 4))
+#print(climb([1,2], 5))
+
+print(climb([1,2],4))
